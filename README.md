@@ -151,7 +151,7 @@ Open windows powershell with Administrator rights
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 ```
 ### Ngrok
-Create an account on ngrok.com and go to Setup & Installation menu > click Windows (or your appropriate operating system)
+Go to https://ngrok.com/, create an account on ngrok.com and go to Setup & Installation menu > click Windows (or your appropriate operating system)
 Next, run the commands as instructed in ngrok to install and Deploy your app online
 
 ## Upgrading
