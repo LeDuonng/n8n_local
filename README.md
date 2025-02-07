@@ -40,7 +40,7 @@ Engineering world, handles large amounts of data safely.
 ### Cloning the Repository
 
 ```bash
-https://github.com/tuyenhm68/self-hosted-ai-starter-kit
+git clone https://github.com/tuyenhm68/self-hosted-ai-starter-kit
 cd self-hosted-ai-starter-kit
 ```
 
@@ -49,7 +49,7 @@ cd self-hosted-ai-starter-kit
 #### For Nvidia GPU users
 
 ```
-https://github.com/tuyenhm68/self-hosted-ai-starter-kit
+git clone https://github.com/tuyenhm68/self-hosted-ai-starter-kit
 cd self-hosted-ai-starter-kit
 docker compose --profile gpu-nvidia up
 ```
@@ -61,7 +61,7 @@ docker compose --profile gpu-nvidia up
 ### For AMD GPU users on Linux
 
 ```
-https://github.com/tuyenhm68/self-hosted-ai-starter-kit
+git clone https://github.com/tuyenhm68/self-hosted-ai-starter-kit
 cd self-hosted-ai-starter-kit
 docker compose --profile gpu-amd up
 ```
@@ -81,7 +81,7 @@ If you want to run Ollama on your mac, check the
 for installation instructions, and run the starter kit as follows:
 
 ```
-https://github.com/tuyenhm68/self-hosted-ai-starter-kit
+git clone https://github.com/tuyenhm68/self-hosted-ai-starter-kit
 cd self-hosted-ai-starter-kit
 docker compose up
 ```
@@ -108,7 +108,7 @@ Additionally, after you see "Editor is now accessible via: <http://localhost:567
 #### For everyone else
 
 ```
-https://github.com/tuyenhm68/self-hosted-ai-starter-kit
+git clone https://github.com/tuyenhm68/self-hosted-ai-starter-kit
 cd self-hosted-ai-starter-kit
 docker compose --profile cpu up
 ```
