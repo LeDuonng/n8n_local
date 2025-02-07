@@ -143,6 +143,17 @@ language model and Qdrant as your vector store.
 > combines robust components that work well together for proof-of-concept
 > projects. You can customize it to meet your specific needs
 
+## ⚡️⚡️start and usage with ngrok
+### install choco (if not installed)
+Open windows powershell with Administrator rights
+
+```
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+```
+### Ngrok
+Create an account on ngrok.com and go to Setup & Installation menu > click Windows (or your appropriate operating system)
+Next, run the commands as instructed in ngrok to install and Deploy your app online
+
 ## Upgrading
 
 * ### For Nvidia GPU setups:
