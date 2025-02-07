@@ -145,7 +145,7 @@ language model and Qdrant as your vector store.
 
 ## ⚡️⚡️start and usage with ngrok
 ### install choco (if not installed)
-Open windows powershell with Administrator rights
+Open windows powershell with Administrator
 
 ```
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
